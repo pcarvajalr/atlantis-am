@@ -1,0 +1,116 @@
+<div class="contact-body">
+  <app-nav-bar></app-nav-bar>
+  <br><br>
+  <section class="contact  py-lg-5 py-md-4 py-md-3 py-2" id="contact">
+    <!-- <h3 class="mb-lg-4 mb-md-3 mb-sm-2 mb-2">Contact US</h3>
+  contact
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.9503398796587!2d-73.9940307!3d40.719109700000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a27e2f24131%3A0x64ffc98d24069f02!2sCANADA!5e0!3m2!1sen!2sin!4v1441710758555"
+    allowfullscreen></iframe> -->
+    <section class="wthree-row py-5 w3-contact" id="contact">
+      <div class="container py-md-5">
+        <h4 class="w3ls-title text-center text-uppercase pb-md-5 pb-4">contact Form</h4>
+        <div class="row contact-form ">
+          <div class="col-lg-5 wthree-form-left">
+            <!-- contact form grid -->
+            <div class="contact-top1">
+              <form action="#" method="get" class="f-color">
+                <div class="form-group">
+                  <label for="contactusername">Name</label>
+                  <input type="text" class="form-control" id="contactusername" required>
+                </div>
+                <div class="form-group">
+                  <label for="contactemail">Email</label>
+                  <input type="email" class="form-control" id="contactemail" required>
+                </div>
+                <div class="form-group">
+                  <label for="contactcomment">Your Message</label>
+                  <textarea class="form-control" rows="5" id="contactcomment" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-block btn-explore">Submit</button>
+              </form>
+            </div>
+            <!--  //contact form grid ends here -->
+          </div>
+          <!-- contact details -->
+          <!-- contact map grid -->
+          <div class="col-lg-3  mt-lg-0 mt-5 map contact-right">
+
+            <div class="address mt-3">
+              <h5 class="pb-3 text-capitalize">Contact info</h5>
+              <address>
+                <p class="c-txt">90 Street, City, State 34789.</p>
+                <p>
+                  <a href="mailto:atlantisamconstruction@gmail.com">atlantisamconstruction@gmail.com</a>
+                </p>
+                <div class="row">
+                  <a class="col-md-3" href="https://api.whatsapp.com/send?phone=17864915954">
+                    <img src="../../assets/imagenes/ws.png" style="width: 80px;">
+                  </a>
+                  <p class="col-md-9 align-self-center">
+                    +1 (786) 491-5954
+                  </p>              
+                </div>
+              </address>
+            </div>
+          </div>
+          <!--//contact map grid ends here-->
+          <div class="col-lg-4 ">
+            <img class="card-img-top rounded-circle" src="../assets/imagenes/contact.jpg" alt="Card image cap">
+          </div>
+        </div>
+        <!-- //contact details container -->
+      </div>
+    </section>
+  </section>
+  <!-- //contact -->
+
+  <app-footer></app-footer>
+  <!-- bootstrap-pop-up for login and register -->
+  <div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          Fast Service
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <section>
+          <div class="modal-body">
+            <div class="loginf_module">
+              <div class="module form-module">
+                <div class="toggle">
+                  <i class="fa fa-times fa-pencil"></i>
+                  <div class="tooltip">Register</div>
+                </div>
+                <div class="form">
+                  <h3>Login to your account</h3>
+                  <form action="#" method="post">
+                    <input type="text" name="Username" placeholder="Username" required="">
+                    <input type="password" name="Password" placeholder="Password" required="">
+                    <input type="submit" value="Login">
+                  </form>
+                  <div class="cta">
+                    <a href="#">Forgot password?</a>
+                  </div>
+                </div>
+                <div class="form">
+                  <h3>Create a new account</h3>
+                  <form action="#" method="post">
+                    <input type="text" name="Username" placeholder="Username" required="">
+                    <input type="password" name="Password" placeholder="Password" required="">
+                    <input type="email" name="Email" placeholder="Email address" required="">
+                    <input type="text" name="Phone" placeholder="Phone Number" required="">
+                    <input type="submit" value="Register">
+                  </form>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
