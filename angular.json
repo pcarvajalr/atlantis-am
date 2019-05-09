@@ -34,7 +34,7 @@
               "src/Styles/style1.css"
             ],
             "scripts": [
-              "node_modules/botstrap/dist/js/bootstrap.min.js",
+              "src/Js/bootstrap.min.js",
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/popper.js/dist/popper.js",
               "src/Js/easing.js",

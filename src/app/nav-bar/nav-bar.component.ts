@@ -13,7 +13,6 @@ export class NavBarComponent implements OnInit {
   }
 
   navbarOpen = false;
-
   
   toggleNavbar(){
   this.navbarOpen = !this.navbarOpen;
