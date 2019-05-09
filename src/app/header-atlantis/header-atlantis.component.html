@@ -2,11 +2,11 @@
 
 <!-- banner -->
 <!-- banner-slider -->
-<ngb-carousel *ngIf="images">
+<ngb-carousel *ngIf="images" style="position: relative; z-index: 0">
   <ng-template ngbSlide>
     <img [src]="images[0]" alt="first slide" class="img-fluid imagen-header">
     <div class="carousel-caption">
-      <h2>We Are The Best Home Service For Making Your Home Shine</h2>
+      <h2 >We Are The Best Home Service For Making Your Home Shine</h2>
       <p style="margin-bottom: 20%;">This carousel uses customized default values.</p>
     </div>
   </ng-template>

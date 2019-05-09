@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light">
+<nav class="navbar navbar-expand-lg navbar-light" style="position: relative; z-index: 100">
   <a class="navbar-brand titulo" routerLink="">Atlantis A.M.C</a>
   <button class="navbar-toggler" (click)="toggleNavbar()" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -38,11 +38,9 @@
       <li class="nav-item">
         <a class="nav-link" [routerLink]="['/contact']">Contact</a>
       </li>
-
       <li class="w3">
         <a href="#" class="nav-link" data-toggle="modal" data-target="#myModal">Login</a>
       </li>
-
     </ul>
   </div>
 </nav>
